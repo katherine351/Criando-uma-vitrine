@@ -1,0 +1,115 @@
+*{
+     margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:rgb(255, 215, 248);
+}
+
+
+header {
+    background-color:rgb(240, 175, 211);
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.texto-pequeno {
+    color: rgba(63, 58, 56, 0.749);
+    font-size: 10px;
+    font-weight: arial;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+
+#titulo-header p {
+    color: rgb(58, 53, 53);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+#menu-header {
+    display: flex;
+    gap:10px;
+}
+
+
+#menu-header p {
+    color: rgb(223, 205, 205);
+    font-size: 12px;
+}
+
+
+main {
+    padding: 20px;
+}
+
+
+#hero {
+    background-color: rgb(214, 154, 184);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#texto-hero h1 {
+    font-size: 80px;
+}
+
+
+#texto-hero p{
+    font-size: 16px;
+}
+
+
+#img-hero img {
+    width:350px;
+    padding: 20px;
+}
+
+
+#galeria-texto {
+    margin-top: 50px;
+}
+
+
+.card {
+    background-color:rgb(245, 231, 241);
+    width: 30%;
+    margin-top: 20px;
+}
+
+
+.card img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+#galeria-imgs {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+
+.card-texto {
+    padding: 10px;
+}
+
+
+footer hr {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: antiquewhite;
+}
